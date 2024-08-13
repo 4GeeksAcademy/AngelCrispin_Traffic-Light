@@ -1,12 +1,32 @@
 
-/* 
+.circle {
+    background: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.square {
+    background: black;
+    width: 150px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
-*/
+.rectangle {
+    background: black;
+    width: 30px;
+    height: 200px;
+}
+
+.trafficLight {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.light{
+    box-shadow: 0 0 80px rgb(255, 208, 0);
+}
