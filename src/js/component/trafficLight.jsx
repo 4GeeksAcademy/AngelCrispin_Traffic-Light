@@ -7,11 +7,10 @@ import React, { useEffect, useState } from 'react'
     const [lights, setLights] = useState(["","",""]);
 
     const TurnOnLight = (index) => {
+        //const lightsAux = [...lights];
         const lightsAux = ["","",""];
         lightsAux[index]="light";
         setLights(lightsAux);
-        //console.log(typeof(lights));
-        //console.log(typeof(lightsAux));
     }
 
     return(
